@@ -99,7 +99,7 @@ export default function NavLayout() {
         {
             title: 'About',
             link: '/about',
-        },
+        },  
         {
             title: 'Portfolio',
             link: '/portfolio',

@@ -30,11 +30,12 @@ const HeroStyles = styled.div`
         }
     }
     .hero__image {
-        max-width: 400px;
+        max-width: 500px;
         width: 100%;
         height: 600px;
         margin: 0 auto;
-        border-radius: 5px solid var(--gray-1);
+        border: 10px solid var(--gray-1);
+        border-radius: 35px;
     }
     .hero__info {
         margin-top: -18rem;
@@ -47,7 +48,7 @@ export default function HeroSection() {
         <div className="hero">
             <div className="container">
                 <h1 className='hero__heading'>
-                    <span>Hi, I am Stella</span>
+                    <span>Hi, I am Stella Ling</span>
                     <span className='hero__name'>Full Stack Web Developer</span>
                 </h1>
                 <div className="hero__image">

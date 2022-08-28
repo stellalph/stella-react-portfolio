@@ -6,11 +6,11 @@ import placeholderImg from '../assets/images/placeholderImg.png'
 const ProjectItemStyles = styled.div`
   .projectItem__img {
     width: 100%;
-    height: 400px;
-    border-radius: 12px;
+    height: 500px;
+    border-radius: 20px;
     overflow: hidden;
     display: inline-block;
-    border: 3px solid var(--gray-2);
+    border: 10px solid var(--gray-2);
     img {
       height: 100%
     }
@@ -19,12 +19,12 @@ const ProjectItemStyles = styled.div`
     margin-top: 1rem;
     background-color: var(--deep-dark);
     padding: 1rem;
-    border-radius: 12px;
+    border-radius: 20px;
   }
   .projectItem__title {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     .icon {
-      font-size: 4.2rem;
+      font-size: 3.2rem;
     }
   }
   .projectItem__desc {
@@ -43,7 +43,7 @@ const ProjectItemStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     .projectItem__img {
-      height: 350px;
+      height: 450px;
     }
   }
 `;
