@@ -10,7 +10,7 @@ const PortfolioStyles = styled.div`
   .project__allitems {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 5rem;
+    gap: 4rem;
     margin-top: 5rem;
   }
 `;
@@ -21,7 +21,7 @@ export default function Portfolio() {
   return (
     <PortfolioStyles>
          <div className="container">
-           <SectionTitle heading='Projects' subheading='Some of my recent works'/>
+           <SectionTitle heading='Projects' subheading='Check out my projects.....'/>
            <div className="project__allitems">
               {projectData.map((item) => (
               <ProjectItem

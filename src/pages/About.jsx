@@ -10,7 +10,7 @@ padding: 15rem 0 10rem 0;
 display: flex;
 align-items: center;
 justify-content: center;
-    gap: 2.5rem;
+    gap: 2.0rem;
    }
   .left {
      flex: 3;
@@ -44,7 +44,7 @@ justify-content: center;
       height: 530px;
     }
    }
-  .about__info__item {
+  .about__info__items {
     margin-top: 10rem;
    
    }
@@ -86,7 +86,7 @@ export default function About() {
               <h2 className='about__heading'>WHO AM I</h2>
                <div className='about__info'>
                 <PText>
-                  Full stack developer leveraging background in finance and taxation to provide unique perspectives on how the end-users could interact with the websites and software platforms. I have earned a professional certification in Full Stack Web Development from The University of Adelaide Coding Bootcamp.  I also have a Bachelor of Commerce (majoring in Accounting) from The University of New South Wales, Australia and worked for many years as an Accountant.           
+                  Full stack developer leveraging background in finance and taxation to provide unique perspectives on how the end-users could interact with the websites and software platforms. I have earned a professional certification in Full Stack Web Development from The University of Adelaide Coding Bootcamp.  I also have a Bachelor of Commerce (majoring in Accounting) from The University of New South Wales, Australia and worked for many years as an Accountant.            
                    <br/><br/>
                  Web Development and Information Systems always inspired me and I am very passionate about developing applications with a focus on mobile-first design and development.  My strengths lie in creativity, teamwork, and building projects from ideation to execution.            
                   <br/><br/>          

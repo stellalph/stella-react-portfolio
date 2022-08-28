@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const PStyle = styled.div`
-  max-width: 660px;
+  max-width: 640px;
   margin: 0 auto;
   font-size: 1.9rem;
   line-height: 1.3em;
