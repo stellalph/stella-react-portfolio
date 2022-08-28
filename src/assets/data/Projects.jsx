@@ -38,15 +38,15 @@ const projects = [
   {
     id: uuidv4(),
     name: "Note Taker",
-    desc: 'A fully functioning Google Books API search engine using RESTful API refactored to be a GraphQL API built with Apollo Server',
+    desc: 'Technologies Used: Node.js, Insomnia, Express.js, Heroku ',
     img: IMG4,
-    hyperGit: <IconLink href="https://github.com/Pattiqus/6Week-6-Weather-Dashboard" icon={faGithub} fontAwesome />,
-    hyperDeployed: <IconLink href="https://pattiqus.github.io/6Week-6-Weather-Dashboard/" icon={IoRocket} />
+    hyperGit: <IconLink href="https://github.com/stellalph/EJS-NOTE-TAKER.git" icon={faGithub} fontAwesome />,
+    hyperDeployed: <IconLink href="https://note-taker-app-stella.herokuapp.com/" icon={IoRocket} />
   },
   {
     id: uuidv4(),
     name: 'MERN Book Search Engine',
-    desc: 'A fully functioning Google Books API search engine using RESTful API refactored to be a GraphQL API built with Apollo Server ',
+    desc: 'React.js, MongoDB, Node.js, Express.js, API, Apollo Server, GraphQL ',
     img: IMG5,
     hyperGit: <IconLink href="https://github.com/stellalph/21-MERN-Book-Search-Engine.git" icon={faGithub} fontAwesome />,
     hyperDeployed: <IconLink href="https://protected-brushlands-99995.herokuapp.com/" icon={IoRocket} />
@@ -54,11 +54,12 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Weather Dashboard',
-    desc: 'A Web text editor where the user can create notes or code snippets with or without an internet connection ',
+    desc: 'Technologies Used: HTML, CSS Bootstrap, jQuery, Moment.js, Open Weather API',
     img: IMG6,
-    hyperGit: <IconLink href="https://github.com/stellalph/19-PWA-Text-Editor.git" icon={faGithub} fontAwesome />,
-    hyperDeployed: <IconLink href="https://mighty-waters-80466.herokuapp.com/" icon={IoRocket} />
+    hyperGit: <IconLink href="https://github.com/stellalph/WEATHER-DASHBOARD.git" icon={faGithub} fontAwesome />,
+    hyperDeployed: <IconLink href="https://stellalph.github.io/WEATHER-DASHBOARD/" icon={IoRocket} />
   },
 ];
 
 export default projects;
+
