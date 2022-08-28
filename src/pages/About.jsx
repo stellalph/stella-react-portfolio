@@ -10,7 +10,7 @@ padding: 15rem 0 10rem 0;
 display: flex;
 align-items: center;
 justify-content: center;
-    gap: 4.0rem;
+    gap: 3.0rem;
    }
   .left {
      flex: 3;
@@ -45,10 +45,11 @@ justify-content: center;
     }
    }
   .about__info__item {
-    margin-top: 15rem;
+    margin-top: 10rem;
+   
    }
    .about__info__item {
-     margin-bottom: 10rem;
+     margin-bottom: 15rem;
    }
    .about__info__heading {
      font-size: 3.6rem;
@@ -82,7 +83,7 @@ export default function About() {
                <p className='about__subheading'>
                 {/* Hi! I am <span>Stella Ling!</span> */}
               </p>
-              <h2 className='about__heading'>Who Am I</h2>
+              <h2 className='about__heading'>WHO AM I</h2>
                <div className='about__info'>
                 <PText>
                   Full stack developer leveraging background in finance and taxation to provide unique perspectives on how the end-users could interact with the websites and software platforms. I have earned a professional certification in Full Stack Web Development from The University of Adelaide Coding Bootcamp.  I also have a Bachelor of Commerce (majoring in Accounting) from The University of New South Wales, Australia and worked for many years as an Accountant.           
@@ -112,7 +113,7 @@ export default function About() {
                <h1 className="about__info__heading">Skills</h1>               
                <AboutInfoItem
               title='Front End'
-              items={['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'React.js']}
+              items={['HTML', 'CSS  ', 'Bootstrap', 'JavaScript', 'React.js']}
              />
              <AboutInfoItem
               title='Back End'
