@@ -38,7 +38,7 @@ const projects = [
   {
     id: uuidv4(),
     name: "Note Taker",
-    desc: 'Technologies Used: Node.js, Insomnia, Express.js, Heroku ',
+    desc: 'Technologies Used: Node.js and its dependencies, Insomnia, Express.js, Heroku ',
     img: IMG4,
     hyperGit: <IconLink href="https://github.com/stellalph/EJS-NOTE-TAKER.git" icon={faGithub} fontAwesome />,
     hyperDeployed: <IconLink href="https://note-taker-app-stella.herokuapp.com/" icon={IoRocket} />
