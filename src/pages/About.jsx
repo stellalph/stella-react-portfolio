@@ -10,7 +10,7 @@ padding: 15rem 0 10rem 0;
 display: flex;
 align-items: center;
 justify-content: center;
-    gap: 3.0rem;
+    gap: 2.5rem;
    }
   .left {
      flex: 3;
