@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/stella-react-portfolio/static/js/main.33ac5986.js",
+    "main.js": "/stella-react-portfolio/static/js/main.2b640572.js",
     "static/js/787.9661502f.chunk.js": "/stella-react-portfolio/static/js/787.9661502f.chunk.js",
     "static/media/placeholderImg.png": "/stella-react-portfolio/static/media/placeholderImg.e4078e414491f74835e7.png",
     "static/media/portfolio4.png": "/stella-react-portfolio/static/media/portfolio4.618b2d46b6befd66192a.png",
@@ -9,17 +9,17 @@
     "static/media/portfolio3.jpg": "/stella-react-portfolio/static/media/portfolio3.eddf2cd3d52cfd29ee9c.jpg",
     "static/media/Montserrat-Bold.ttf": "/stella-react-portfolio/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
     "static/media/Montserrat-SemiBold.ttf": "/stella-react-portfolio/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/about_image.jpg": "/stella-react-portfolio/static/media/about_image.3277b9e1bda2deb392ed.jpg",
+    "static/media/hero_image.jpg": "/stella-react-portfolio/static/media/hero_image.3277b9e1bda2deb392ed.jpg",
     "static/media/Tomatoes-O8L8.ttf": "/stella-react-portfolio/static/media/Tomatoes-O8L8.92ae010d8bbe4fc7b338.ttf",
     "static/media/portfolio2.jpg": "/stella-react-portfolio/static/media/portfolio2.e1399ef7767ccd797857.jpg",
     "static/media/RobotoMono-Regular.ttf": "/stella-react-portfolio/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
     "static/media/portfolio6.jpg": "/stella-react-portfolio/static/media/portfolio6.c4ded00344dc364eb0dd.jpg",
-    "static/media/about_image.jpg": "/stella-react-portfolio/static/media/about_image.60f436ef84e2b76ccfcd.jpg",
-    "static/media/hero_image.jpg": "/stella-react-portfolio/static/media/hero_image.60f436ef84e2b76ccfcd.jpg",
     "index.html": "/stella-react-portfolio/index.html",
-    "main.33ac5986.js.map": "/stella-react-portfolio/static/js/main.33ac5986.js.map",
+    "main.2b640572.js.map": "/stella-react-portfolio/static/js/main.2b640572.js.map",
     "787.9661502f.chunk.js.map": "/stella-react-portfolio/static/js/787.9661502f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.33ac5986.js"
+    "static/js/main.2b640572.js"
   ]
 }
