@@ -35,10 +35,10 @@ const HeroStyles = styled.div`
         height: 600px;
         margin: 0 auto;
         border: 10px solid var(--gray-1);
-        border-radius: 35px;
+        border-radius: 20px;
     }
     .hero__info {
-        margin-top: -18rem;
+        margin-top: -10rem;
     }
 `;
 

@@ -6,8 +6,8 @@ import placeholderImg from '../assets/images/placeholderImg.png'
 const ProjectItemStyles = styled.div`
   .projectItem__img {
     width: 100%;
-    height: 500px;
-    border-radius: 25px;
+    height: 320px;
+    border-radius: 10px;
     overflow: hidden;
     display: inline-block;
     border: 10px solid var(--gray-2);
@@ -18,13 +18,13 @@ const ProjectItemStyles = styled.div`
   .projectItem__info {
     margin-top: 1rem;
     background-color: var(--deep-dark);
-    padding: 1rem;
-    border-radius: 20px;
+    padding: 0.5rem;
+    border-radius: 10px;
   }
   .projectItem__title {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     .icon {
-      font-size: 3.2rem;
+      font-size: 3.0rem;
     }
   }
   .projectItem__desc {

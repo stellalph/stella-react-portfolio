@@ -14,7 +14,7 @@ export default function IconLink(props) {
             <FontAwesomeIcon icon={Icon}></FontAwesomeIcon>
         )}
 
-        {!props.fontAwesome && <Icon style={{width: '50px'}}/>}
+        {!props.fontAwesome && <Icon style={{width: '30px'}}/>}
     </a>
     
   )

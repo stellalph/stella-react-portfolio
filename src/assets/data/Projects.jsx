@@ -46,7 +46,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'MERN Book Search Engine',
-    desc: 'React.js, MongoDB, Node.js, Express.js, API, Apollo Server, GraphQL ',
+    desc: 'Technologies Used: React.js, MongoDB, Node.js, Express.js, API, Apollo Server, GraphQL ',
     img: IMG5,
     hyperGit: <IconLink href="https://github.com/stellalph/21-MERN-Book-Search-Engine.git" icon={faGithub} fontAwesome />,
     hyperDeployed: <IconLink href="https://protected-brushlands-99995.herokuapp.com/" icon={IoRocket} />

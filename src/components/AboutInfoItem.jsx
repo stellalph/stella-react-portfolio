@@ -7,21 +7,21 @@ const AboutItemStyles = styled.div`
   align-items: center;
   justify-content: flex-start;
   position: relative;
-  /* gap: 5rem; */
+  gap: 5rem;
   margin-top: 3rem;
   .title {
     font-size: 2.4rem;
   }
   .items {
     display: flex;
-    gap: 1.5rem;
+    gap: 2.5rem;
     position: absolute;
-    left: 60rem;
+    left: 58rem;
   }
   .item {
     background-color: var(--deep-dark);
-    padding: 1rem;
-    border-radius: 25px;
+    padding: 0.6rem;
+    border-radius: 8px;
   }
   @media only screen and (max-width: 768px) {
     flex-direction: column;
@@ -38,19 +38,19 @@ const AboutItemStyles = styled.div`
 `;
 
 export default function AboutInfoItem({
-    title="Item title",
-    items=['HTML','CSS','JS'],
+  title = "Item title",
+  items = ['HTML', 'CSS', 'JS'],
 }) {
   return (
-      <AboutItemStyles>
-        <h1 className="title">{title}</h1>
-        <div className="items">
-            {items.map((item, index) => (
-            <div className='item' key={index}>
-                <PText>{item}</PText>
-            </div>
+    <AboutItemStyles>
+      <h1 className="title">{title}</h1>
+      <div className="items">
+        {items.map((item, index) => (
+          <div className='item' key={index}>
+            <PText>{item}</PText>
+          </div>
         ))}
-        </div>
+      </div>
     </AboutItemStyles>
   );
 }
