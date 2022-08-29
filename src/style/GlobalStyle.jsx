@@ -8,13 +8,17 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: #000000;
+    --dark-bg: #233142;
     --gray-1: #BCB4B4;
     --deep-dark: #262626;
     --steel-1: #5b84bc;
-    --gray-2: #363636;
+    --gray-2: #140303;
     --white : white;
     --black: black;
+    --blue-1: #A5DEF1;
+    --blue-2: #82A6CB;
+    --blue-3: #3667A6;
+    --blue-4: #214177;
   }
   html{
     font-size: 10px;

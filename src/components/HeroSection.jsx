@@ -23,7 +23,7 @@ const HeroStyles = styled.div`
             width: 100%;
         }
         .hero__name {
-            font-size: 6rem;
+            font-size: 5rem;
           
             color: var(--gray-1); 
             margin-bottom: 100px;
@@ -43,23 +43,23 @@ const HeroStyles = styled.div`
 `;
 
 export default function HeroSection() {
-  return (
-    <HeroStyles>
-        <div className="hero">
-            <div className="container">
-                <h1 className='hero__heading'>
-                    <span>Hi, I am Stella Ling</span>
-                    <span className='hero__name'>Full Stack Web Developer</span>
-                </h1>
-                <div className="hero__image">
-                    <img src={HeroImage} alt='me-chinatown'/>
-                </div>
-                <div className="hero__info">
-                    <PText>
+    return (
+        <HeroStyles>
+            <div className="hero">
+                <div className="container">
+                    <h1 className='hero__heading'>
+                        <span>Hi, I am Stella Ling</span>
+                        <span className='hero__name'>Full Stack Web Developer</span>
+                    </h1>
+                    <div className="hero__image">
+                        <img src={HeroImage} alt='me-chinatown' />
+                    </div>
+                    <div className="hero__info">
+                        <PText>
                         </PText>
+                    </div>
                 </div>
             </div>
-        </div>
-    </HeroStyles>
-  )
+        </HeroStyles>
+    )
 }
