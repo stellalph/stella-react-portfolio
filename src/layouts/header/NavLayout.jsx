@@ -110,7 +110,7 @@ export default function NavLayout() {
         },
         {
             title: 'Resume',
-            link: 'https://drive.google.com/file/d/1ShNKSvLw4bkuO1YIpxTj3BKOm85xbPKh/view?usp=sharing',
+            link: '//drive.google.com/file/d/1ShNKSvLw4bkuO1YIpxTj3BKOm85xbPKh/view?usp=sharing',
         },
     ];
 
