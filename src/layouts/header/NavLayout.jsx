@@ -90,7 +90,7 @@ const NavBarStyle = styled.nav`
     }
 `;
 export default function NavLayout() {
-  
+
     const navItems = [
         {
             title: 'Home',
@@ -99,7 +99,7 @@ export default function NavLayout() {
         {
             title: 'About',
             link: '/about',
-        },  
+        },
         {
             title: 'Portfolio',
             link: '/portfolio',
@@ -110,7 +110,7 @@ export default function NavLayout() {
         },
         {
             title: 'Resume',
-            link: '',
+            link: 'https://drive.google.com/file/d/1ShNKSvLw4bkuO1YIpxTj3BKOm85xbPKh/view?usp=sharing',
         },
     ];
 
@@ -118,40 +118,40 @@ export default function NavLayout() {
 
     return (
 
-    <div>
-        <NavBarStyle>
-        <div 
-            className='mobile-menu-icon'
-            onClick={() => SetShowNav(!showNav)}
-            role='button'
-            onKeyDown={() => SetShowNav(!showNav)}
-            tabIndex={0}
-        >
-            <MdMenu/>
-        </div>
-        <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
-            <div className='closeNavIcon'
-                onClick={() => SetShowNav(!showNav)}
-                role='button'
-                onKeyDown={() => SetShowNav(!showNav)}
-                tabIndex={0}
-            >  
-                <MdClose/>
-            </div>
-            {navItems.map((item) => (
-                <li key={item.link}>
-                    <NavLink to={item.link}
-                    exact='true'
+        <div>
+            <NavBarStyle>
+                <div
+                    className='mobile-menu-icon'
                     onClick={() => SetShowNav(!showNav)}
                     role='button'
                     onKeyDown={() => SetShowNav(!showNav)}
+                    tabIndex={0}
+                >
+                    <MdMenu />
+                </div>
+                <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
+                    <div className='closeNavIcon'
+                        onClick={() => SetShowNav(!showNav)}
+                        role='button'
+                        onKeyDown={() => SetShowNav(!showNav)}
+                        tabIndex={0}
                     >
-                       {item.title}
-                    </NavLink>
-                </li>
-            ))}
-        </ul>
-        </NavBarStyle>
-    </div>
-  )
+                        <MdClose />
+                    </div>
+                    {navItems.map((item) => (
+                        <li key={item.link}>
+                            <NavLink to={item.link}
+                                exact='true'
+                                onClick={() => SetShowNav(!showNav)}
+                                role='button'
+                                onKeyDown={() => SetShowNav(!showNav)}
+                            >
+                                {item.title}
+                            </NavLink>
+                        </li>
+                    ))}
+                </ul>
+            </NavBarStyle>
+        </div>
+    )
 }
