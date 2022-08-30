@@ -21,7 +21,7 @@ export default function Portfolio() {
   return (
     <PortfolioStyles>
          <div className="container">
-           <SectionTitle heading='Projects' subheading='Some of my projects'/>
+           <SectionTitle heading='Projects' subheading=''/>
            <div className="project__allitems">
               {projectData.map((item) => (
               <ProjectItem

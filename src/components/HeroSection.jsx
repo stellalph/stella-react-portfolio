@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImage from '../assets/images/hero_image.jpg';
+import HeroImage from '../assets/images/hero_image.png';
 import PText from './PText';
 
 const HeroStyles = styled.div`
@@ -32,7 +32,7 @@ const HeroStyles = styled.div`
     .hero__image {
         max-width: 500px;
         width: 100%;
-        height: 600px;
+        height: 720px;
         margin: 0 auto;
         border: 10px solid var(--gray-1);
         border-radius: 20px;
