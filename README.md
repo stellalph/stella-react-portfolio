@@ -37,7 +37,7 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
 
 - To deploy the react application, we add the homepage to package.json:-
 
-  ![alt text](./src/assets/img00.jpg)
+  ![alt text](./src/assets/images/img00.jpg)
 
 - To install gh-pages and add deploy to scripts in package.json
 
@@ -45,7 +45,7 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
   npm install --save gh-pages
   ```
 
-  ![alt text](./src/assets/img02.png)
+  ![alt text](./src/assets/images/img02.png)
 
 - To deploy to the site by running
 
@@ -53,4 +53,5 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
   npm run deploy
   ```    
 ## Overview
+
 
