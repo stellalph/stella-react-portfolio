@@ -1,5 +1,8 @@
+
+
 import { createGlobalStyle } from 'styled-components';
 import Background from '../assets/images/background.png'
+
 
 const GlobalStyles = createGlobalStyle`
 *{
@@ -22,7 +25,7 @@ const GlobalStyles = createGlobalStyle`
   }
   html{
     font-size: 10px;
-    font-family: 'Roboto Mono';
+    font-family: 'Poppins';
     background-color: var(--dark-bg);
     background-image: url(${Background});
     background-repeat: no-repeat;
