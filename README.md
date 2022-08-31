@@ -54,4 +54,6 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
   ```    
 ## Overview
 
+## License
 
+This project is licensed under the terms of the MIT license
