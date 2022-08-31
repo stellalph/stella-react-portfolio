@@ -33,7 +33,7 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
     - npm i styled-components@4.1.3
     - npm install --save @types/styled-components
 
-# Deployment
+## Deployment
 
 - To deploy the react application, we add the homepage to package.json:-
 
