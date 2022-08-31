@@ -8,4 +8,6 @@ This portfolio is a single page application and have been refactored from 20s-re
 
 This application is deployed to GitHub Pages and the URL of the functional deployed application is https://stellalph.github.io/stella-react-portfolio.
 
-The repository name is stella-react-portfolio and the URL of the GitHub repository is https://github.com/stellalph/20s-react-portfolio.git.
+The repository name is stella-react-portfolio and the URL of the GitHub repository is https://github.com/stellalph/stella-react-portfolio.git.
+
+
