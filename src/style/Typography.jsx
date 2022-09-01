@@ -2,7 +2,9 @@ import { createGlobalStyle } from 'styled-components';
 import RobotoMonoRegular from '../assets/fonts/RobotoMono-Regular.ttf';
 import MontserratSemiBold from '../assets/fonts/Montserrat-SemiBold.ttf';
 import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
-import TomatoesO8L8 from '../assets/fonts/Tomatoes-O8L8.ttf'
+import TomatoesO8L8 from '../assets/fonts/Tomatoes-O8L8.ttf';
+import PoppinsMedium from '../assets/fonts/poppins.medium.ttf';
+import OpenSansSemiBold from '../assets/fonts/OpenSans-Semibold.ttf';
 
 const Typography = createGlobalStyle`
   @font-face {
@@ -25,13 +27,23 @@ const Typography = createGlobalStyle`
     src: url(${TomatoesO8L8});
     font-style: normal;
   }
+  @font-face {
+    font-family: 'poppins.medium';
+    src: url(${PoppinsMedium});
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url(${OpenSansSemiBold});
+    font-style: normal;
+  }
   html{
-    font-family: 'RobotoMono Regular';
-    color: var(--gray-1);
+    font-family: 'Montserrat SemiBold';
+    color: var(--black);
   }
   *{
-    font-family: 'RobotoMono Regular';
-    color: var(--gray-1);
+    font-family: 'Montserrat SemiBold';
+    color: var(--gray-3);
   }
   h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat SemiBold'

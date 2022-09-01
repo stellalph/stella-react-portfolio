@@ -19,7 +19,7 @@ const AboutItemStyles = styled.div`
     left: 58rem;
   }
   .item {
-    background-color: var(--deep-dark);
+    background-color: var(--dark-bg);
     padding: 0.6rem;
     border-radius: 8px;
   }

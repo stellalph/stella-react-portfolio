@@ -19,7 +19,7 @@ justify-content: center;
      flex: 2;
   }
    .about__subheading {
-    font-size: 2.2rem;
+    font-size: 3.0rem;
     margin-bottom: 2rem;
     span {
        background-color: var(--deep-dark);
@@ -39,7 +39,7 @@ justify-content: center;
    }
   .right {
     img {
-      border: 10px solid var(--gray-1);
+      border: 10px solid var(--blue-2);
       border-radius: 35px;
       height: 530px;
     }
@@ -52,7 +52,7 @@ justify-content: center;
      margin-bottom: 15rem;
    }
    .about__info__heading {
-     font-size: 3.6rem;
+     font-size: 3.0rem;
      text-transform: uppercase;
   }
    @media only screen and (max-width: 768px) {
@@ -62,13 +62,13 @@ justify-content: center;
       gap: 5rem;
     }
    .about__subheading {
-      font-size: 1.8rem;
+      font-size: 1.0rem;
     }
     .about__heading {
       font-size: 2.8rem;
     }
    .about__info__heading {
-      font-size: 3em;
+      font-size: 3rem;
      }
    }
 `;

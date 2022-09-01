@@ -5,8 +5,8 @@ import PText from './PText';
 
 const HeroStyles = styled.div`
     .hero {
-        height: 100vh;
-        min-height: 1000px;
+        height: 90vh;
+        min-height: 850px;
         width: 100%;
         text-align: center;
         display: flex;
@@ -25,7 +25,7 @@ const HeroStyles = styled.div`
         .hero__name {
             font-size: 5rem;
           
-            color: var(--gray-1); 
+            color: var(--blue-3); 
             margin-bottom: 100px;
         }
     }
@@ -34,7 +34,7 @@ const HeroStyles = styled.div`
         width: 100%;
         height: 720px;
         margin: 0 auto;
-        border: 10px solid var(--gray-1);
+        border: 10px solid var(--blue-2);
         border-radius: 20px;
     }
     .hero__info {
