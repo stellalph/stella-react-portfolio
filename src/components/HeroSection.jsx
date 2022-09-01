@@ -15,7 +15,7 @@ const HeroStyles = styled.div`
         position: relative;
     }
     .hero__heading {
-        font-size: 5rem;
+        font-size: 3.0rem;
         margin-bottom: -4rem;
         position: relative;
         span {
@@ -23,7 +23,7 @@ const HeroStyles = styled.div`
             width: 100%;
         }
         .hero__name {
-            font-size: 5rem;
+            font-size: 3.5rem;
           
             color: var(--blue-3); 
             margin-bottom: 100px;

@@ -14,14 +14,14 @@ const AboutItemStyles = styled.div`
   }
   .items {
     display: flex;
-    gap: 2.5rem;
+    gap: 2.4rem;
     position: absolute;
-    left: 58rem;
+    left: 56rem;
   }
   .item {
     background-color: var(--dark-bg);
     padding: 0.6rem;
-    border-radius: 8px;
+    border-radius: 6px;
   }
   @media only screen and (max-width: 768px) {
     flex-direction: column;
