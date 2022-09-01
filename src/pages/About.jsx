@@ -19,10 +19,10 @@ justify-content: center;
      flex: 2;
   }
    .about__subheading {
-    font-size: 3.0rem;
+    font-size: 3.5rem;
     margin-bottom: 2rem;
     span {
-       background-color: var(--deep-dark);
+       background-color: var(--dark-green);
       padding: 1.5rem;
       border-radius: 10px;
      }
@@ -39,9 +39,9 @@ justify-content: center;
    }
   .right {
     img {
-      border: 10px solid var(--blue-2);
-      border-radius: 35px;
-      height: 530px;
+      border: 8px solid var(--gray-green);
+      border-radius: 25px;
+      height: 520px;
     }
    }
   .about__info__items {
@@ -50,6 +50,7 @@ justify-content: center;
    }
    .about__info__item {
      margin-bottom: 15rem;
+    
    }
    .about__info__heading {
      font-size: 3.0rem;
@@ -62,13 +63,13 @@ justify-content: center;
       gap: 5rem;
     }
    .about__subheading {
-      font-size: 1.0rem;
+      font-size: 0.5rem;
     }
     .about__heading {
-      font-size: 2.8rem;
+      font-size: 2.5rem;
     }
    .about__info__heading {
-      font-size: 3rem;
+      font-size: 2.0rem;
      }
    }
 `;
@@ -124,6 +125,9 @@ export default function About() {
               items={['Insomnia', 'GraphQL', 'MySQL WorkBench', 'Heroku', 'GiT']}
               />  
             </div>
+            
+            {/* For further additions in the future */}
+
             {/* <div className="about__info__item">
              <h1 className="about__info__heading">Experience</h1>
              <AboutInfoItem

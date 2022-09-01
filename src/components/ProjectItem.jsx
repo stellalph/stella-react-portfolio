@@ -10,14 +10,14 @@ const ProjectItemStyles = styled.div`
     border-radius: 15px;
     overflow: hidden;
     display: inline-block;
-    border: 8px solid var(--gray-2);
+    border: 8px solid var(--dark-green);
     img {
       height: 100%
     }
   }
   .projectItem__info {
     margin-top: 1rem;
-    background-color: var(--deep-dark);
+    background-color: var(--black);
     padding: 0.5rem;
     border-radius: 10px;
   }

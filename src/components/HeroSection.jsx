@@ -25,7 +25,7 @@ const HeroStyles = styled.div`
         .hero__name {
             font-size: 3.5rem;
           
-            color: var(--blue-3); 
+            color: var(--gray-green); 
             margin-bottom: 100px;
         }
     }
@@ -34,8 +34,8 @@ const HeroStyles = styled.div`
         width: 100%;
         height: 720px;
         margin: 0 auto;
-        border: 10px solid var(--blue-2);
-        border-radius: 20px;
+        border: 10px solid var(--gray-green);
+        border-radius: 30px;
     }
     .hero__info {
         margin-top: -10rem;
@@ -52,7 +52,7 @@ export default function HeroSection() {
                         <span className='hero__name'>Full Stack Web Developer</span>
                     </h1>
                     <div className="hero__image">
-                        <img src={HeroImage} alt='me-chinatown' />
+                        <img src={HeroImage} alt='me-adelaide' />
                     </div>
                     <div className="hero__info">
                         <PText>

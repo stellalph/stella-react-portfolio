@@ -10,11 +10,11 @@ const NavBarStyle = styled.nav`
     left: 0;
     width: 100%;
     padding: 1rem 0;
-    background: var(--dark-bg);
+    background: var(--dark-green);
     ul {
         max-width: 1200px;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
         text-align: center;
         li{
             display: inline-block;
@@ -27,17 +27,17 @@ const NavBarStyle = styled.nav`
     }
     a {
         display: inline-block;
-        font-family: 'RobotoMono Regular';
+        font-family: 'Montserrat SemiBold';
         padding: 1rem 2rem;
-        font-size: 2rem;
-        color: var(--blue-2);
+        font-size: 2.0rem;
+        color: var(--light-gray);
         outline: none;
     }
     .active {
-        color: var(--blue-1);
+        color: var(--gray-green);
         border: solid;
         border-radius: 8px;
-        border-color: var(--blue-2);
+        border-color: var(--gray-green);
     }
     .mobile-menu-icon {
         position: absolute;

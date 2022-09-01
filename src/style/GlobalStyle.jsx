@@ -26,11 +26,16 @@ const GlobalStyles = createGlobalStyle`
     --blue-2: #82A6CB;
     --blue-3: #3667A6;
     --blue-4: #214177;
+    --blue-5: #1C3879;
+    --dark-green: #143A52;
+    --gray-green: #6E828A;
+    --light-blue: #CDE3EB;
+    --light-gray: #E3EFF3;
   }
   html{
     font-size: 10px;
-    font-family: 'Poppins';
-    background-color: var(--dark-bg);
+    font-family: 'Montserrat SemiBold';
+    background-color: var(--dark-green);
     background-image: url(${Background});
     background-repeat: no-repeat;
     background-position: center;

@@ -30,7 +30,7 @@ const FormStyle = styled.form`
     resize: vertical;
   }
   .text-warning {
-    color: red;
+    color: orange;
   }
   button[type='submit'] {
     background-color: var(--black);

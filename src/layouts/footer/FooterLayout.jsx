@@ -11,7 +11,7 @@ const FooterStyles = styled.div`
     position: fixed;
     justify-content: center;
     width: 100%;
-    background: var(--dark-bg);
+    background: var(--dark-green);
 }
 .footerLinksList {
     display: flex;
@@ -19,7 +19,7 @@ const FooterStyles = styled.div`
     bottom: 0;
     justify-content: center;
     &:hover {
-        color: var(--steel-1);
+        color: var(--light-gray);
     }
 }
 .footerButtons {
@@ -29,7 +29,7 @@ const FooterStyles = styled.div`
 .trademark {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 `;
 
