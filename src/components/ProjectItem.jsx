@@ -6,7 +6,7 @@ import placeholderImg from '../assets/images/placeholderImg.png'
 const ProjectItemStyles = styled.div`
   .projectItem__img {
     width: 100%;
-    height: 320px;
+    height: 490px;
     border-radius: 15px;
     overflow: hidden;
     display: inline-block;
