@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.js": "/stella-react-portfolio/static/js/main.14bcae1f.js",
+    "main.js": "/stella-react-portfolio/static/js/main.15422c10.js",
     "static/js/787.9661502f.chunk.js": "/stella-react-portfolio/static/js/787.9661502f.chunk.js",
     "static/media/hero_image.png": "/stella-react-portfolio/static/media/hero_image.e1775bee27d3e664d613.png",
     "static/media/about_image.jpg": "/stella-react-portfolio/static/media/about_image.b3e10b07f92735193070.jpg",
+    "static/media/cv.pdf": "/stella-react-portfolio/static/media/cv.745d1713db60eb030778.pdf",
     "static/media/portfolio3.jpg": "/stella-react-portfolio/static/media/portfolio3.fdcbc952d9de29f39320.jpg",
     "static/media/Montserrat-Bold.ttf": "/stella-react-portfolio/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
     "static/media/Montserrat-SemiBold.ttf": "/stella-react-portfolio/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
@@ -18,10 +19,10 @@
     "static/media/portfolio4.jpg": "/stella-react-portfolio/static/media/portfolio4.05ea718edeed87bf8314.jpg",
     "static/media/placeholderImg.png": "/stella-react-portfolio/static/media/placeholderImg.1855498bb128d88f9f58.png",
     "index.html": "/stella-react-portfolio/index.html",
-    "main.14bcae1f.js.map": "/stella-react-portfolio/static/js/main.14bcae1f.js.map",
+    "main.15422c10.js.map": "/stella-react-portfolio/static/js/main.15422c10.js.map",
     "787.9661502f.chunk.js.map": "/stella-react-portfolio/static/js/787.9661502f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.14bcae1f.js"
+    "static/js/main.15422c10.js"
   ]
 }
