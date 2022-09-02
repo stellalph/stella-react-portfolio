@@ -50,7 +50,7 @@ The portfolio will comprises the following :-
 
 * Home page
 
-  ![alt text](./src/assets/images/img1.png) 
+  ![alt text](./src/assets/images/img01.jpg) 
 
 * About me page
 
