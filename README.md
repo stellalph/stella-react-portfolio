@@ -46,6 +46,25 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
 
 ## Overview
 
+The portfolio will comprises the following :-
+
+* Home page
+
+  ![alt text](./src/assets/images/img1.png) 
+
+* About me page
+
+  ![alt text](./src/assets/images/img2.jpg) 
+
+* Projects page
+
+  ![alt text](./src/assets/images/img3.jpg) 
+
+* Contact page
+
+  ![alt text](./src/assets/images/img4.jpg) 
+
+
 ## License
 
 This project is licensed under the terms of the MIT license
