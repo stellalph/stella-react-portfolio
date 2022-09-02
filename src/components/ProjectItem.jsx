@@ -20,17 +20,20 @@ const ProjectItemStyles = styled.div`
     background-color: var(--black);
     padding: 0.5rem;
     border-radius: 10px;
+  
   }
   .projectItem__title {
     font-size: 1.8rem;
     .icon {
       font-size: 3.0rem;
+     
     }
   }
   .projectItem__desc {
     font-size: 1.6rem;
-    font-family: 'RobotoMono Regular';
+    font-family: 'Montserrat SemiBold';
     margin-top: 1rem;
+
   }
   .hyperlinks {
     display: flex;

@@ -30,7 +30,7 @@ const NavBarStyle = styled.nav`
         font-family: 'Montserrat SemiBold';
         padding: 1rem 2rem;
         font-size: 2.0rem;
-        color: var(--light-gray);
+        color: var(--light-blue);
         outline: none;
     }
     .active {
