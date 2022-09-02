@@ -125,21 +125,7 @@ export default function About() {
               items={['Insomnia', 'GraphQL', 'MySQL WorkBench', 'Heroku', 'GiT']}
               />  
             </div>
-            
-            {/* For further additions in the future */}
-
-            {/* <div className="about__info__item">
-             <h1 className="about__info__heading">Experience</h1>
-             <AboutInfoItem
-            title=''
-             items={['']}
-              />
-             <AboutInfoItem
-               title=''
-               items={['']}
-               /> */}
-             {/* </div> */}
-           </div>
+            </div>
         </div>
      </div>
      </AboutPageStyles>
