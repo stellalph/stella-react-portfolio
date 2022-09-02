@@ -108,10 +108,7 @@ export default function NavLayout() {
             title: 'Contact',
             link: '/contact',
         },
-        {
-            title: 'Resume',
-            link: '//drive.google.com/file/d/1ShNKSvLw4bkuO1YIpxTj3BKOm85xbPKh/view?usp=sharing',
-        },
+     
     ];
     const [showNav, SetShowNav] = useState(false);
 
