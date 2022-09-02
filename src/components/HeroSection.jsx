@@ -16,7 +16,7 @@ const HeroStyles = styled.div`
         align-items: center;
         margin-bottom: 40px;
         font-size: 20px;
-        max-width: 300px;
+        max-width: 350px;
         width: 100%;
         margin: auto;
       background-color: var(--dark-green);
@@ -83,7 +83,7 @@ export default function HeroSection() {
                     <br></br>
                     <br></br>
                     <div className='cta'>
-                        <a href={CV} download className='btn' target="_blank" rel="noopener noreferrer">Download Resume</a>
+                        <a href={CV} download className='btn' target="_blank" rel="noopener noreferrer" style={{color: "light-blue", fontSize:"30px"}}>Download Resume</a>
                     </div>
                     <div className="hero__info">
                         <PText>
