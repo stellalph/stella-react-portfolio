@@ -50,9 +50,9 @@ const HeroStyles = styled.div`
         }
     }
     .hero__image {
-        max-width: 500px;
+        max-width: 350px;
         width: 100%;
-        height: 600px;
+        height: 460px;
         margin: 0 auto;
         border: 10px solid var(--gray-green);
         border-radius: 30px;
@@ -84,7 +84,7 @@ export default function HeroSection() {
                     <br></br>
                     <br></br>
                     <div className='cta'>
-                        <a href={CV} download className='btn' target="_blank" rel="noopener noreferrer" style={{color: "light-blue", fontSize:"30px"}}>Download Resume</a>
+                        <a href={CV} download className='btn' target="_blank" rel="noopener noreferrer" style={{color: "light-blue", fontSize:"30px"}}>View Resume</a>
                     </div>
                     <div className="hero__info">
                         <PText>
