@@ -76,8 +76,8 @@ export default function ProjectItem({
       </div>
       <div className="projectItem__info">
         <div className="hyperlinks">
-          <h3 className="projectItem__title"><div className="icon" target="_blank" rel="noopener noreferrer">{hyperGit}</div>GitHub</h3>
-          <h3 className="projectItem__title"><div className="icon" target="_blank" rel="noopener noreferrer">{hyperDeployed}</div> Deployed</h3>
+          <h3 className="projectItem__title"><div className="icon">{hyperGit}</div>GitHub</h3>
+          <h3 className="projectItem__title"><div className="icon">{hyperDeployed}</div> Deployed</h3>
         </div>
       </div>
     </ProjectItemStyles>
