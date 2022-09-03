@@ -16,7 +16,7 @@ const projects = [
     name: 'Group Project 1 - Travel Planner',
     desc: 'A travel planner for travellers to plan activities. Technologies used are HTML, CSS Materialise, JQuery, Moment.js and the Fetch API',
     img: IMG1,
-    hyperGit: <IconLink href="https://github.com/stellalph/Travel-planner.git" icon={faGithub} fontAwesome />,
+    hyperGit: <IconLink href="https://github.com/stellalph/Travel-planner.git" target='_blank' rel="noopener noreferrer" icon={faGithub} fontAwesome />,
     hyperDeployed: <IconLink href="https://chardige.github.io/Travel-planner/" icon={IoRocket} />
   },
   {

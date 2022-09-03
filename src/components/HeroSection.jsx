@@ -67,15 +67,16 @@ export default function HeroSection() {
         <HeroStyles>
             <div className="hero">
                 <div className="container">
-                    <h1 className='hero__heading'>
+                    <h1 className="hero__heading">
                         <span>Hi, I am Stella Ling</span>
                         <span className='hero__name'>Full Stack Web Developer</span>
                     </h1>
-                    {/* <div className='cta'> */}
-                        {/* <a href={CV} download className='btn' target="_blank" rel="noopener noreferrer">Resume</a>
-                    </div> */}
+                    {/* <br></br>
+                    <div className='cta'>
+                        <a href={CV} download className='btn' target="_blank" rel="noopener noreferrer" style={{ color: "light-blue", fontSize: "25px" }}>Resume</a>
+                    </div>
                     <br></br>
-                    
+                    <br></br> */}
                     <div className="hero__image">
                         <img src={HeroImage} alt='me-adelaide' />
                     </div>
