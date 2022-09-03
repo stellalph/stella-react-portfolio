@@ -16,7 +16,7 @@ const PortfolioStyles = styled.div`
 `;
 
 export default function Portfolio() {
-  const [projectData, setProjectData] = useState(ProjectInfo);
+  const [projectData] = useState(ProjectInfo);
 
   return (
     <PortfolioStyles>

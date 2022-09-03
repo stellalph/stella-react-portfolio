@@ -23,8 +23,8 @@ const FooterStyles = styled.div`
     }
 }
 .footerButtons {
-    margin: 5px 20px 5px 20px;
-    font-size: 4rem;
+    margin: 10px 15px 10px 15px;
+    font-size: 2.5rem;
 }
 .trademark {
     display: flex;
@@ -58,7 +58,7 @@ export default function footerLayout(props) {
             <ul className='footerLinksList'>
             {socialLinks.map((item, index) => (
                     <li key={index} className='footerButtons'>
-                        <a href={item.link} target='_blank' rel='noreferrer'>
+                        <a href={item.link} target="_blank" rel="noreferrer noopener">
                         {item.title}
                         </a>
                     </li>
