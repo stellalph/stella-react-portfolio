@@ -60,6 +60,19 @@ const HeroStyles = styled.div`
     .hero__info {
         margin-top: -10rem;
     }
+    @media only screen and (max-width: 768px) {
+  
+        align-items: flex-start;
+        gap: 1rem;
+        .items {
+          position: initial;
+          gap: 1rem;
+        }
+        .title {
+          font-size: 2rem;
+        }
+      }
+    
 `;
 
 export default function HeroSection() {
@@ -84,7 +97,7 @@ export default function HeroSection() {
                     <br></br>
                     <br></br>
                     <div className='cta'>
-                        <a href={CV} download className='btn' target="_blank" rel="noopener noreferrer" style={{color: "light-blue", fontSize:"30px"}}>View Resume</a>
+                        <a href={CV} download className='btn' target="_blank" rel="noopener noreferrer" style={{ color: "light-blue", fontSize: "30px" }}>View Resume</a>
                     </div>
                     <div className="hero__info">
                         <PText>
