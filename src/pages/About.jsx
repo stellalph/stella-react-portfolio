@@ -3,15 +3,15 @@ import PText from '../components/PText';
 import AboutImage from '../assets/images/about_image.jpg'
 import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutInfoItem';
-import CV from '../assets/images/cv.pdf';   
+// import CV from '../assets/images/cv.pdf';   
 
 const AboutPageStyles = styled.div`
-padding: 15rem 0 10rem 0;
-.top-section {
-display: flex;
-align-items: center;
-justify-content: center;
-    gap: 2.0rem;
+    padding: 15rem 0 10rem 0;
+   .top-section {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2rem;
    }
   .left {
      flex: 3;
@@ -24,13 +24,13 @@ justify-content: center;
     margin-bottom: 2rem;
     span {
        background-color: var(--dark-green);
-      padding: 1.5rem;
-      border-radius: 10px;
+       padding: 0.5rem;
+       border-radius: 10px;
      }
    }
   .about__heading {
     font-size: 3.6rem;
-   margin-bottom: 3rem;
+    margin-bottom: 3rem;
   }
   .about__info {
     margin-bottom: 1rem;
@@ -57,22 +57,6 @@ justify-content: center;
      font-size: 3.0rem;
      text-transform: uppercase;
   }
-  .cta {
-    margin-top: 2.5rem;
-    display: flex;
-    border: 5px solid var(--gray-green);
-    border-radius: 20px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 40px;
-    font-size: 20px;
-    max-width: 350px;
-    width: 100%;
-    margin: auto;
-  background-color: var(--dark-green);
-
-
 
 
    @media only screen and (max-width: 768px) {
@@ -89,8 +73,7 @@ justify-content: center;
     }
    .about__info__heading {
       font-size: 2.0rem;
-     }
-   }
+     }   
 `;
 
 export default function About() {
@@ -110,15 +93,17 @@ export default function About() {
                    <br/><br/>
                  Web Development and Information Systems always inspired me and I am very passionate about developing applications with a focus on mobile-first design and development.  My strengths lie in creativity, teamwork, and building projects from ideation to execution.            
                   <br/><br/> 
-                  <div className='cta'>
-                        <a href={CV} download className='btn' target="_blank" rel="noreferrer noopener" style={{ color: "light-blue", fontSize: "30px" }}>View Resume</a>
-                    </div>
+                  <br></br>
+                 
                     <div className="hero__info"></div>      
                </PText>
              </div>
             </div>
             <div className="right">
               <img src={AboutImage} alt="Stella Ling"/>
+              {/* <div className='cta'>
+                        <a href={CV} download className='btn' target="_blank" rel="noreferrer noopener" style={{ color: "light-blue", fontSize: "30px" }}>Resume</a>
+                    </div> */}
            </div>
            </div>
           <div className="about__info__items">

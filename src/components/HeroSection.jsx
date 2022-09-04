@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import CV from '../assets/images/cv.pdf';
+// import CV from '../assets/images/cv.pdf';
 import HeroImage from '../assets/images/hero_image.png';
 import PText from './PText';
 
@@ -96,9 +96,9 @@ export default function HeroSection() {
                     <br></br>
                     <br></br>
                     <br></br>
-                    <div className='cta'>
+                    {/* <div className='cta'>
                         <a href={CV} download className='btn' target="_blank" rel="noreferrer noopener" style={{ color: "light-blue", fontSize: "30px" }}>View Resume</a>
-                    </div>
+                    </div> */}
                     <div className="hero__info">
                         <PText>
                         </PText>
