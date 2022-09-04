@@ -3,6 +3,7 @@ import PText from '../components/PText';
 import AboutImage from '../assets/images/about_image.jpg'
 import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutInfoItem';
+import CV from '../assets/images/cv.pdf';   
 
 const AboutPageStyles = styled.div`
 padding: 15rem 0 10rem 0;
@@ -56,6 +57,24 @@ justify-content: center;
      font-size: 3.0rem;
      text-transform: uppercase;
   }
+  .cta {
+    margin-top: 2.5rem;
+    display: flex;
+    border: 5px solid var(--gray-green);
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+  background-color: var(--dark-green);
+
+
+
+
    @media only screen and (max-width: 768px) {
      padding: 10rem 0;
     .top-section {
@@ -90,7 +109,11 @@ export default function About() {
                   Full stack developer leveraging background in finance and taxation to provide unique perspectives on how the end-users could interact with the websites and software platforms. I have earned a professional certification in Full Stack Web Development from The University of Adelaide Coding Bootcamp.  I also have a Bachelor of Commerce (majoring in Accounting) from The University of New South Wales, Australia and worked for many years as an Accountant.            
                    <br/><br/>
                  Web Development and Information Systems always inspired me and I am very passionate about developing applications with a focus on mobile-first design and development.  My strengths lie in creativity, teamwork, and building projects from ideation to execution.            
-                  <br/><br/>          
+                  <br/><br/> 
+                  <div className='cta'>
+                        <a href={CV} download className='btn' target="_blank" rel="noreferrer noopener" style={{ color: "light-blue", fontSize: "30px" }}>View Resume</a>
+                    </div>
+                    <div className="hero__info"></div>      
                </PText>
              </div>
             </div>
