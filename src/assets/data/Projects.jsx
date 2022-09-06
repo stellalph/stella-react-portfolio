@@ -32,8 +32,8 @@ const projects = [
     name: 'Final Project 3 - MERN Ski Resort',
     desc: 'A MERN single page application encouraging the users to stay active. Technologies are React, GraphQL, Node.js, and MongoDB',
     img: IMG3,
-    hyperGit: <IconLink href="https://github.com/stellalph/MERN-Ski-Resort.git" target="_blank" rel="noreferrer noopener" icon={FaGithub}/>,
-    hyperDeployed: <IconLink href="https://still-harbor-63486.herokuapp.com/" target="_blank" rel="noreferrer noopener" icon={IoRocket} />
+    hyperGit: <IconLink href={"https://github.com/stellalph/MERN-Ski-Resort.git"} target="_blank" rel="noreferrer noopener" icon={FaGithub}/>,
+    hyperDeployed: <IconLink href={"https://still-harbor-63486.herokuapp.com/"} target="_blank" rel="noreferrer noopener" icon={IoRocket} />
   },
   {
     id: uuidv4(),

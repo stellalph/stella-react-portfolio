@@ -55,7 +55,6 @@ The portfolio will comprises the following :-
 * Resume page
 
 
-
 ## License
 
 This project is licensed under the terms of the MIT license
