@@ -19,7 +19,7 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
 
 ## Installation
 
-- This portfolio application requires the installation of node.js from the website, https://www.node.js and the node package manager(npm) which is a software manager and installer which puts the modules so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using **npm init**". The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization.
+- This portfolio application requires the installation of node.js from the website, https://www.node.js and the node package manager(npm) which is a software manager and installer which puts the modules so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using *npm init*. The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization.
 
 - This react application is created by entering at command prompt :-
 
@@ -38,11 +38,11 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
 
   ![alt text](./src/assets/images/img00.jpg)
 
-- gh-pages is installed and add deploy to scripts in package.json, _npm install --save gh-pages_
+- gh-pages is installed and add deploy to scripts in package.json, *npm install --save gh-pages*
 
   ![alt text](./src/assets/images/img02.png)
 
-- The application is deployed to Github at command prompt, _npm run deploy_ whenever there is any changes to the application.
+- The application is deployed to Github at command prompt, *npm run deploy* whenever there is any changes to the application.
 
 ## Overview
 
@@ -52,7 +52,7 @@ The portfolio will comprises the following :-
 * About me page
 * Projects page
 * Contact page
-* Resume page
+
 
 
 ## License
