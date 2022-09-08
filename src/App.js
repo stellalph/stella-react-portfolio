@@ -20,9 +20,9 @@ function App() {
                   </Route>
                   {/* <Route path="/portfolio" element={<Portfolio/>}> */}
                   {/* </Route> */}
-                  <Route path="/contact" element={<Contact/>}>
-                  </Route>
                   <Route path="/work" element={<Work/>}>
+                  </Route>
+                  <Route path="/contact" element={<Contact/>}>
                   </Route>
               </Routes>
             <FooterLayout/>

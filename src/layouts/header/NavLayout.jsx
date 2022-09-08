@@ -100,20 +100,15 @@ export default function NavLayout() {
             title: 'About',
             link: '/about',
         },
-        // {
-        //     title: 'Portfolio',
-        //     link: '/portfolio',
-        // },
+         {
+             title: 'Work',
+             link: '/work',
+        },
         {
             title: 'Contact',
             link: '/contact',
         },
-        {
-            title: 'Work',
-            link: '/work',
-           
-        
-        }
+       
 
 
 
