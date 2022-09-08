@@ -121,7 +121,7 @@ export default function About() {
                   <br></br>
                   <div></div>
                   <div>
-                    <h1>👇️</h1>
+                    {/* <h1>👇️</h1> */}
                     <br></br>
                     {/* 👇️ open link in new tab */}
                     <a href="https://drive.google.com/file/d/19RCJpbDxtrL2J_ha5aWfQik3IZLznY0-/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ fontSize: "25px" }}>
