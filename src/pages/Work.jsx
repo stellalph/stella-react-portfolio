@@ -1,7 +1,7 @@
 import React from 'react'
 import './Work.css'
 import IMG1 from '../assets/images/portfolio1.jpg'
-import IMG2 from '../assets/images/portfolio2a.jpg'
+import IMG2 from '../assets/images/portfolio2.jpg'
 import IMG3 from '../assets/images/portfolio3.jpg'
 import IMG4 from '../assets/images/portfolio4.jpg'
 import IMG5 from '../assets/images/portfolio5.jpg'
@@ -38,7 +38,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'MERN Ski Resort',
+    title: 'Project 3 - MERN Ski Resort',
     desc: 'A MERN single page application encouraging the users to stay active and healthy and foster friendships.  Technologies: React, GraphQL, Node.js and MongoDB',
     github: 'https://github.com/stellalph/MERN-Ski-Resort.git',
     demo: 'https://still-harbor-63486.herokuapp.com/'
@@ -70,10 +70,11 @@ const Work = () => {
       <br></br>
       <br></br>
       <br></br>
-      <h1>Projects</h1>
+   
         <br></br>
         <br></br>
         <br></br>
+        <p style={{textAlign: "center", fontSize:"30px"}}>Some of my recent works</p>
         <br></br>
       <div className="container portfolio__container">
         {
@@ -87,7 +88,7 @@ const Work = () => {
                 <h4>{desc}</h4>
                 <div className="portfolio__item-cta">
                   <a href={github} className='btn' target='_blank' rel="noopener noreferrer" ><FaGithub />Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank' rel="noopener noreferrer"><IoRocket style={{fontSize:"0.1px"}}/>Deployed Link</a>
+                  <a href={demo} className='btn btn-primary' target='_blank' rel="noopener noreferrer"><IoRocket style={{fontSize:"4px"}}/>Deployed Link</a>
                 </div>
               </article>
              
@@ -95,6 +96,7 @@ const Work = () => {
           })
         }
       </div>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>

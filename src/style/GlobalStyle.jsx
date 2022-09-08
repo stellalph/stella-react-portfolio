@@ -33,7 +33,7 @@ const GlobalStyles = createGlobalStyle`
     --light-gray: #E3EFF3;
   }
   html{
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Montserrat SemiBold';
     background-color: var(--dark-green);
     background-image: url(${Background});
