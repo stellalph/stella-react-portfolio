@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/stella-react-portfolio/static/js/main.8c9d3613.js",
+    "main.css": "/stella-react-portfolio/static/css/main.86ae96f8.css",
+    "main.js": "/stella-react-portfolio/static/js/main.67c1eb6e.js",
     "static/media/hero_image.png": "/stella-react-portfolio/static/media/hero_image.3027d973d1dd85a936f0.png",
     "static/media/about_image.jpg": "/stella-react-portfolio/static/media/about_image.b3e10b07f92735193070.jpg",
     "static/media/portfolio3.jpg": "/stella-react-portfolio/static/media/portfolio3.fdcbc952d9de29f39320.jpg",
@@ -17,9 +18,11 @@
     "static/media/portfolio4.jpg": "/stella-react-portfolio/static/media/portfolio4.05ea718edeed87bf8314.jpg",
     "static/media/placeholderImg.png": "/stella-react-portfolio/static/media/placeholderImg.1855498bb128d88f9f58.png",
     "index.html": "/stella-react-portfolio/index.html",
-    "main.8c9d3613.js.map": "/stella-react-portfolio/static/js/main.8c9d3613.js.map"
+    "main.86ae96f8.css.map": "/stella-react-portfolio/static/css/main.86ae96f8.css.map",
+    "main.67c1eb6e.js.map": "/stella-react-portfolio/static/js/main.67c1eb6e.js.map"
   },
   "entrypoints": [
-    "static/js/main.8c9d3613.js"
+    "static/css/main.86ae96f8.css",
+    "static/js/main.67c1eb6e.js"
   ]
 }
