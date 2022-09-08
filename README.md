@@ -50,7 +50,7 @@ The portfolio will comprises the following :-
 
 * Home page
 * About me page
-* Projects page
+* Work (Projects) page
 * Contact page
 
 
