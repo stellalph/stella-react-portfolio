@@ -1,7 +1,7 @@
 import React from 'react'
 import './Work.css'
 import IMG1 from '../assets/images/portfolio1.jpg'
-import IMG2 from '../assets/images/portfolio2.jpg'
+import IMG2 from '../assets/images/portfolio2a.jpg'
 import IMG3 from '../assets/images/portfolio3.jpg'
 import IMG4 from '../assets/images/portfolio4.jpg'
 import IMG5 from '../assets/images/portfolio5.jpg'
@@ -67,8 +67,14 @@ const data = [
 const Work = () => {
   return (
     <section id='portfolio'>
+      <br></br>
+      <br></br>
+      <br></br>
       <h1>Projects</h1>
-
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       <div className="container portfolio__container">
         {
           data.map(({ id, image, title, desc, github, demo }) => {
@@ -84,10 +90,15 @@ const Work = () => {
                   <a href={demo} className='btn btn-primary' target='_blank' rel="noopener noreferrer"><IoRocket style={{fontSize:"0.1px"}}/>Deployed Link</a>
                 </div>
               </article>
+             
             )
           })
         }
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </section>
   )
 }
