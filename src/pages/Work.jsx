@@ -8,6 +8,7 @@ import IMG5 from '../assets/images/portfolio5.jpg'
 import IMG6 from '../assets/images/portfolio6.jpg'
 import { FaGithub } from 'react-icons/fa'
 import { IoRocket } from 'react-icons/io5';
+
 // SIX OF MY PROJECTS.....
 
 const data = [
@@ -102,6 +103,9 @@ const Work = () => {
       <br></br>
       <br></br>
     </section>
+  
   )
 }
+<br>
+</br>
 export default Work

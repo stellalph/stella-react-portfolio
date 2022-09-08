@@ -12,6 +12,7 @@ const FooterStyles = styled.div`
     justify-content: center;
     width: 100%;
     background: var(--dark-green);
+  
 }
 .footerLinksList {
     display: flex;
