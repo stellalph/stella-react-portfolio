@@ -5,6 +5,7 @@ import NavLayout from './layouts/header/NavLayout'
 import Home from './pages/Home'
 import About from './pages/About'
 import Portfolio from './pages/portfolio'
+import Work from './pages/Work'
 import Contact from './pages/Contact';
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
                   <Route path="/portfolio" element={<Portfolio/>}>
                   </Route>
                   <Route path="/contact" element={<Contact/>}>
+                  </Route>
+                  <Route path="/work" element={<Work/>}>
                   </Route>
               </Routes>
             <FooterLayout/>
