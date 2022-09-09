@@ -11,7 +11,7 @@
 
 ## Description
 
-This portfolio is a single page application and have been refactored from 20s-react-portfolio by using React, React icons, HTML and styled Ccmponents and to share six of my projects.
+This portfolio is a single page application and have been refactored from 20s-react-portfolio by using React, React icons, HTML, CSS3 and styled Ccmponents and to share six of my projects.
 
 This application is deployed to GitHub Pages and the URL of the functional deployed application is https://stellalph.github.io/stella-react-portfolio.
 

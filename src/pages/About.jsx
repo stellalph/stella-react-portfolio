@@ -124,7 +124,7 @@ export default function About() {
                     {/* <h1>👇️</h1> */}
                     <br></br>
                     {/* 👇️ open link in new tab */}
-                    <a href="https://drive.google.com/file/d/19RCJpbDxtrL2J_ha5aWfQik3IZLznY0-/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ fontSize: "25px" }}>
+                    <a href="https://docs.google.com/document/d/1fBjOhMjB9zFhSfra_i_JG0GQ-tTsC7vM/edit?usp=sharing&ouid=104729183531456686816&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" style={{ fontSize: "25px" }}>
                     🔗 Click Here To Download CV</a>
                   {/* <p><FaHandPointer style={{fontSize:"10px"}}/></p> */}
                     <br></br>

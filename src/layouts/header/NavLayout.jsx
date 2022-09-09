@@ -100,6 +100,10 @@ export default function NavLayout() {
             title: 'About',
             link: '/about',
         },
+        // {
+        //     title: 'SKills',
+        //      link: '/skills',
+        // },
          {
              title: 'Work',
              link: '/work',
