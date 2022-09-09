@@ -19,7 +19,7 @@ const HeroStyles = styled.div`
         max-width: 350px;
         width: 100%;
         margin: auto;
-      background-color: var(--dark-green);
+        background-color: var(--dark-green);
       
    
         
@@ -67,6 +67,7 @@ const HeroStyles = styled.div`
         .items {
           position: initial;
           gap: 1rem;
+          padding-bottom: 10px;
         }
         .title {
           font-size: 2rem;
