@@ -54,7 +54,7 @@ The portfolio will comprises the following :-
 
 * About me page
 
-  ![alt text](./src/assets/images/About.jpg)
+  ![alt text](./src/assets/images/Aboutme.jpg)
 
 
 * Work (Projects) page
