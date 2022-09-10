@@ -3,7 +3,7 @@ import PText from '../components/PText';
 import AboutImage from '../assets/images/about_image.jpg'
 import styled from 'styled-components';
 import AboutInfoItem from '../components/AboutInfoItem';
-// import {FaHandPointer} from 'react-icons/fa';
+
 
 // const openInNewTab = url => {
 //   window.open(url, '_blank', 'noopener,noreferrer');
@@ -126,7 +126,7 @@ export default function About() {
                     {/* 👇️ open link in new tab */}
                     <a href="https://docs.google.com/document/d/1fBjOhMjB9zFhSfra_i_JG0GQ-tTsC7vM/edit?usp=sharing&ouid=104729183531456686816&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" style={{ fontSize: "25px" }}>
                     🔗 Click Here To Download CV</a>
-                  {/* <p><FaHandPointer style={{fontSize:"10px"}}/></p> */}
+              
                     <br></br>
                     <br></br>
                     <hr />

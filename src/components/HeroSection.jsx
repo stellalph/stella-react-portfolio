@@ -96,13 +96,20 @@ export default function HeroSection() {
                     </div>
                     <br></br>
                     <br></br>
-                    <br></br>
+        
                     {/* <div className='cta'>
                         <a href={CV} download className='btn' target="_blank" rel="noreferrer noopener" style={{ color: "light-blue", fontSize: "30px" }}>View Resume</a>
                     </div> */}
                     <div className="hero__info">
                         <PText>
                         </PText>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
                     </div>
                 </div>
             </div>

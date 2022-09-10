@@ -100,10 +100,7 @@ export default function NavLayout() {
             title: 'About',
             link: '/about',
         },
-        // {
-        //     title: 'SKills',
-        //      link: '/skills',
-        // },
+        
          {
              title: 'Work',
              link: '/work',
@@ -112,11 +109,8 @@ export default function NavLayout() {
             title: 'Contact',
             link: '/contact',
         },
-       
 
-
-
-     
+        
     ];
     const [showNav, SetShowNav] = useState(false);
 
