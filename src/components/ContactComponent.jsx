@@ -59,7 +59,7 @@ export default function ContactComponent() {
             <SectionTitle heading="Contact" subheading="Let's chat!"/>
             <div className='contactSection__wrapper'>
               <div className='left'>
-                <ContactInfo icon={<MdLocalPhone />} text='04** *** ***'/>
+                <ContactInfo icon={<MdLocalPhone />} text='0423 504 059'/>
                 <ContactInfo icon={<MdEmail />} text='stella.ling@outlook.com'/>
                 <a href="mailto:stella.ling@outlook.com" target="_blank" rel="noopener noreferrer">Send a message</a>
                 <ContactInfo icon={<MdPlace />} text='Adelaide, Australia'/>
