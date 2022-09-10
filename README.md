@@ -41,7 +41,7 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
 - gh-pages is installed and add deploy to scripts in package.json, *npm install --save gh-pages*
 
   ![alt text](./src/assets/images/img02.png)
-
+z
 - The application is deployed to Github at command prompt, *npm run deploy* whenever there is any changes to the application.
 
 ## Overview
@@ -49,11 +49,21 @@ The repository name is stella-react-portfolio and the URL of the GitHub reposito
 The portfolio will comprises the following :-
 
 * Home page
+
+  ![alt text](./src/assets/images/home.jpg)
+
 * About me page
+
+  ![alt text](./src/assets/images/About.jpg)
+
+
 * Work (Projects) page
+
+  ![alt text](./src/assets/images/Work.jpg)
+
 * Contact page
 
-
+  ![alt text](./src/assets/images/Contact.jpg)
 
 ## License
 
