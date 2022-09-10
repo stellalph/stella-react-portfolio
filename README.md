@@ -7,6 +7,7 @@
 - [Installation](#installation)
 - [Deployment](#deployment)
 - [Overview](#overview)
+- [References](#references)
 - [License](#license)
 
 ## Description
@@ -64,6 +65,15 @@ The portfolio will comprises the following :-
 * Contact page
 
   ![alt text](./src/assets/images/Contact.jpg)
+
+## References
+
+* The Unit Ahead Materials on React (React Hooks, State, and Components)
+* Unit 20 Student Mini Project
+* React-Icons (https://react-icons.github.io/react-icons/)
+* styled components documentation (https://styled-components.com/docs)
+
+
 
 ## License
 
