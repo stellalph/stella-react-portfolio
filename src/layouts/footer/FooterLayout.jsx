@@ -24,7 +24,7 @@ const FooterStyles = styled.div`
     }
 }
 .footerButtons {
-    margin: 10px 15px 10px 15px;
+    margin: 5px 10px 5px 5px;
     font-size: 2.5rem;
 }
 .trademark {

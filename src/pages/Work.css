@@ -41,7 +41,8 @@
   @media screen and (max-width: 1024px) {
     .portfolio__container {
       grid-template-columns: 1fr 1fr;
-      gap: 1.2rem;
+      gap: 1.1rem;
+   
     }
   }
   
@@ -49,7 +50,7 @@
   @media screen and (max-width: 600px) {
     .portfolio__container {
       grid-template-columns: 1fr;
-      gap: 1rem;
+      gap: 0.9rem;
      padding-bottom: 35px;
     }
   } 

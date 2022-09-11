@@ -70,11 +70,10 @@ const Work = () => {
     <section id='portfolio'>
       <br></br>
       <br></br>
+      <br></br> 
       <br></br>
-   
-        <br></br>
-        <br></br>
-        <br></br>
+      <br></br>
+      <br></br>
         <p style={{textAlign: "center", fontSize:"30px"}}>Some of my recent works</p>
         <br></br>
       <div className="container portfolio__container">
@@ -102,10 +101,11 @@ const Work = () => {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
     </section>
-  
+
   )
 }
-<br>
-</br>
+<br></br>
+
 export default Work

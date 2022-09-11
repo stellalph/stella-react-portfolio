@@ -18,10 +18,10 @@ const ContactSectionStyle = styled.div`
     position: absolute;
     content: '';
     width: 2px;
-    height: 50%;
+    height: 100%;
     background-color: var(--dark-bg);
     left: 50%;
-    top: 30%;
+    top: 50%;
     transform: translate(-50%, -50%);
   }
   .left {
@@ -67,9 +67,14 @@ export default function ContactComponent() {
               <div className='right'>
                 <ContactForm/>
               </div>
+              
             </div>
         </div>
     </div>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
     </ContactSectionStyle>
   )
 }
