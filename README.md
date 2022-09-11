@@ -72,6 +72,7 @@ The portfolio will comprises the following :-
 * Unit 20 Student Mini Project
 * React-Icons (https://react-icons.github.io/react-icons/)
 * styled components documentation (https://styled-components.com/docs)
+* Free Image obtained from unsplash.com
 
 
 
